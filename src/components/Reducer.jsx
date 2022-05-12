@@ -39,19 +39,19 @@ function ReducerComponent() {
         <>
             <h2 style={{color: `rgb(${r}, ${g}, ${b})`}}>useReducer example</h2>
             <div>
-                <span>r</span>
+                <span>r </span>
                 <button onClick={() => {dispatch({type: 'INCREMENT_R', payload: 50})}}>+</button>
                 <button onClick={() => {dispatch({type: 'DECREMENT_R', payload: 50})}}>-</button>
             </div>
             <div>
-                <span>g</span>
-                <button onClick={() => {dispatch({type: 'INCREMENT_G', payload: 50})}}>+</button>
-                <button onClick={() => {dispatch({type: 'DECREMENT_G', payload: 50})}}>-</button>
+                <span>g </span>
+                <button onClick={() => {dispatch({type: 'INCREMENT_G', payload: 50})}}> + </button>
+                <button onClick={() => {dispatch({type: 'DECREMENT_G', payload: 50})}}> - </button>
             </div>
             <div>
-                <span>b</span>
-                <button onClick={() => {dispatch({type: 'INCREMENT_B', payload: 50})}}>+</button>
-                <button onClick={() => {dispatch({type: 'DECREMENT_B', payload: 50})}}>-</button>
+                <span>b </span>
+                <button onClick={() => {dispatch({type: 'INCREMENT_B', payload: 50})}}> + </button>
+                <button onClick={() => {dispatch({type: 'DECREMENT_B', payload: 50})}}> - </button>
             </div>
         </>
     )

@@ -1,6 +1,8 @@
 import './App.css';
+import CallbackComponent from './components/Callback';
 import ContextComponent from './components/Context';
 import EffectComponent from './components/Effect';
+import MemoComponent from './components/Memo';
 import ReducerComponent from './components/Reducer';
 import RefComponent from './components/Ref';
 import StateComponent from './components/State';
@@ -17,6 +19,10 @@ function App() {
       <RefComponent/>
       <hr/>
       <ReducerComponent/>
+      <hr/>
+      <MemoComponent/>
+      <hr/>
+      <CallbackComponent/>
     </div>
   );
 }
