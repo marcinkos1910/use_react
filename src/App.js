@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <StateComponent/>
       <hr/>
-      {/* <EffectComponent/> */}
+      <EffectComponent/>
       <hr/>
       <ContextComponent/>
       <hr/>

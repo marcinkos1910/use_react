@@ -13,7 +13,7 @@ function EffectComponent() {
     })
 
     return (
-        <h1>useEffect example: {time.toLocaleTimeString}</h1>
+        <h1>useEffect example: {time.toLocaleTimeString()}</h1>
     )
 }
 
