@@ -2,6 +2,7 @@ import './App.css';
 import CallbackComponent from './components/Callback';
 import ContextComponent from './components/Context';
 import EffectComponent from './components/Effect';
+import ImperativeHandleComponent from './components/ImperativeHandle';
 import LayoutEffectComponent from './components/LayoutEffect';
 import MemoComponent from './components/Memo';
 import ReducerComponent from './components/Reducer';
@@ -26,6 +27,8 @@ function App() {
       <CallbackComponent/>
       <hr/>
       <LayoutEffectComponent/>
+      <hr/>
+      <ImperativeHandleComponent/>
     </div>
   );
 }
