@@ -3,6 +3,7 @@ import CallbackComponent from './components/Callback';
 import ContextComponent from './components/Context';
 import DebugValueComponent from './components/DebugValue';
 import EffectComponent from './components/Effect';
+import IdComponent from './components/Id';
 import ImperativeHandleComponent from './components/ImperativeHandle';
 import LayoutEffectComponent from './components/LayoutEffect';
 import MemoComponent from './components/Memo';
@@ -32,6 +33,8 @@ function App() {
       <ImperativeHandleComponent/>
       <hr/>
       <DebugValueComponent/>
+      <hr/>
+      <IdComponent/>
     </div>
   );
 }
