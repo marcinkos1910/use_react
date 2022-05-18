@@ -1,6 +1,7 @@
 import './App.css';
 import CallbackComponent from './components/Callback';
 import ContextComponent from './components/Context';
+import DebugValueComponent from './components/DebugValue';
 import EffectComponent from './components/Effect';
 import ImperativeHandleComponent from './components/ImperativeHandle';
 import LayoutEffectComponent from './components/LayoutEffect';
@@ -29,6 +30,8 @@ function App() {
       <LayoutEffectComponent/>
       <hr/>
       <ImperativeHandleComponent/>
+      <hr/>
+      <DebugValueComponent/>
     </div>
   );
 }
