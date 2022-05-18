@@ -1,7 +1,8 @@
-import { useState } from "react";
+// import { useState } from "react";
+import useMyState from "../useMyState";
 
 function StateComponent() {
-    const [isGreen, setIsGreen] = useState(() => true);
+    const [isGreen, setIsGreen] = useMyState(() => true);
 
     return (
         <h1 style={{color: isGreen ? 'green' : 'blue'}} onClick={() => {

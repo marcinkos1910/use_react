@@ -2,6 +2,7 @@ import './App.css';
 import CallbackComponent from './components/Callback';
 import ContextComponent from './components/Context';
 import EffectComponent from './components/Effect';
+import LayoutEffectComponent from './components/LayoutEffect';
 import MemoComponent from './components/Memo';
 import ReducerComponent from './components/Reducer';
 import RefComponent from './components/Ref';
@@ -23,6 +24,8 @@ function App() {
       <MemoComponent/>
       <hr/>
       <CallbackComponent/>
+      <hr/>
+      <LayoutEffectComponent/>
     </div>
   );
 }
